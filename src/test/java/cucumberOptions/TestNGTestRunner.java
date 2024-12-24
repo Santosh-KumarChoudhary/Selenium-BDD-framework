@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 
 	glue="stepDefinations", monochrome=true,
 	//tags="@PlaceOrder or @OfferPage"
-	plugin={"html:target/cucumber.html",
+	plugin={"html:target/cucumber-reports.html",
 			"json:target/cucumber.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 			
 "rerun:target/failed_scenario.txt"
